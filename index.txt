@@ -1,0 +1,17 @@
+< html>
+<html>
+<head>
+  <title>Hello World Button</title>
+</head>
+<body>
+  <h1>Click the button to say hello!</h1>
+  <button onclick="sayHello()">Click me</button>
+  <p id="message"></p>
+
+  <script>
+    function sayHello() {
+      document.getElementById("message").innerHTML = "Hello World!";
+    }
+  </script>
+</body>
+</html>
